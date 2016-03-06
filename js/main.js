@@ -27,7 +27,7 @@ var calcObj = {
 
 $(".buttons span").on('click', function(event) {
   var thisButton = event.target;
-console.log(this);
+  console.log(this);
   if (thisButton.innerText === "C") {
     displayText = "";
     $display.text(displayText);
